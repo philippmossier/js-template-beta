@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 import '../assets/main.css';
-import Button from "../components/Button";
+import Button from '../components/Button';
 
 export default {
   title: 'Buttons',
@@ -8,7 +8,7 @@ export default {
 
 export const submitButton = () => (
   <Button />
-)
+);
 export const submitButton2 = () => (
   <Button />
-)
+);

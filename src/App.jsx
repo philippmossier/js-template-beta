@@ -1,6 +1,5 @@
 import React from 'react';
 import './assets/main.css';
-import Button from './components/Button';
 import Dropdown from './components/Dropdown';
 
 
@@ -12,10 +11,8 @@ const App = () => (
   //   <div className="text-6xl text-blue-100 shadow"></div>
   //   <button className="shadow text-blue-100 bg-red-400 px-2 py-3">ssss</button>
   // </div >
-  <div>
 
-    <Dropdown />
-  </div>
+  <Dropdown />
 );
 
 export default App;
