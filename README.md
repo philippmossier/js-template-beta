@@ -6,8 +6,12 @@ It includes a complete dev-setup with:
 --------------------------------------
 * React
 * TailwindCSS
+* TailwindUI 
+* CSSTransitions with react-transition-group
 * PostCss
+* PurgeCss (minimizes css files on production)
 * Autoprefixer (for better Browser Support)
+* ESLint
 * Storybook (more Addons coming soon)
 
 How to use the APP Boilerplate
