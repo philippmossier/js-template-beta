@@ -1,6 +1,6 @@
 import React from 'react';
 import './assets/main.css';
-import Dropdown from './components/Dropdown';
+import DarkWithSearch from './components/Navbars/DarkWithSearch';
 
 
 const App = () => (
@@ -12,7 +12,8 @@ const App = () => (
   //   <button className="shadow text-blue-100 bg-red-400 px-2 py-3">ssss</button>
   // </div >
 
-  <Dropdown />
+  // <Dropdown />
+  <DarkWithSearch />
 );
 
 export default App;
