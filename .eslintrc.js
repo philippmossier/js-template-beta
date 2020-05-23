@@ -21,6 +21,10 @@ module.exports = {
   plugins: [
     'react',
   ],
-  rules: {  
+  rules: {
+    "quotes": ["error","single"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "object-curly-spacing": ["error", "always"],
+    "react/prop-types": 0,
   },
 };
